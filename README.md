@@ -16,7 +16,7 @@ A simple weather webpage that allows users to enter a country name and instantly
 - 📱 Fully responsive design for mobile, tablet, and desktop.  
 
 ## Live Demo  
-[**View the Live Project**](http://127.0.0.1:3000/weather-web-page/index.html)  
+[**View the Live Project**](https://dark1arrow.github.io/weather-web-page/)  
 
 ## Figma Design  
 [**View Figma Design**](https://www.figma.com/design/rervNKegOt7yXEDeSnH9UC/java-script-project?node-id=25-43&t=MsM37kkix7ldWsq1-1)  
