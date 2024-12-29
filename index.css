@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Barlow";
+}
+
+html {
+    background-color: #1E1E1E;
+}
+
+body {
+    background: linear-gradient(45deg, rgba(59, 59, 59, 1) 0%, rgba(59, 59, 59, 0.8) 31%, rgba(59, 59, 59, 0.6) 70%, rgba(59, 59, 59, 0.3) 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.card,
+.input,
+.whether {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    background: linear-gradient(-45deg, rgba(35, 1, 255, 0.87) 0%, rgba(0, 94, 255, 0.758) 39%, rgba(0, 225, 255, 1) 100%);
+    border-radius: 20px;
+    border: 2px solid #585858;
+    padding: 30px;
+}
+
+.input {
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input input {
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    padding: 0px 20px;
+    font-size: 17px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+}
+
+.input button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.input button img {
+    width: 60px;
+}
+
+.whether {
+    margin: 10px auto 50px auto;
+}
+
+.whether img {
+    width: 150px;
+    margin: 40px auto;
+}
+
+.whether .temp {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+}
+
+.whether .city {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.info {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    margin: 70px auto 10px auto;
+}
+
+.info div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.info div div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+}
+
+.info div div:first-child {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: center;
+    display: none;
+}
+
+.wind-speed img,
+.humadity img {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+}
+
+@media (max-width: 500px) {
+    .input input {
+        width: 200px;
+    }
+
+    .whether img {
+        width: 100px;
+        margin: 20px auto;
+    }
+
+    .info {
+        width: 300px;
+    }
+
+    .wind-speed img,
+    .humadity img {
+        width: 30px;
+    }
+}
